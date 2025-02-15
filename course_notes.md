@@ -241,7 +241,9 @@ class App extends React.Component {
     render() {
         return (
             <div className='App'>
-                ...
+                <header id="intro"></header>
+                <main id="wrapper"></main>
+                <footer className="sence"></footer>
             </div>
         )
     }

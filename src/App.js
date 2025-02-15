@@ -110,19 +110,18 @@ class App extends React.Component {
               <p><strong>The Landon Hotel - London</strong> was recently renovated, and we considered the impact on the earth the entire way. From green building materials, to solar power, to energy-friendly lighting and appliances throughout the hotel - we’re saving energy in every socket, outlet, and switch. We’ve also initiated a recycling and composting program that reduces the load to local landfills, while providing valuable raw material for use in new products, or in the case of compost, for use in local gardens and landscapes.</p>
             </article>
           </div>
-
-          <footer className="scene">
-            <article className="content">
-              <div id="socialmedia">
-                <ul className="group">
-                  <li><a href="https://twitter.com"><img className="icon" src="https://landonhotel.com/images/socialmedia/twitter.png" alt="icon for twitter" /></a></li>
-                  <li><a href="http://www.facebook.com"><img className="icon" src="https://landonhotel.com/images/socialmedia/facebook.png" alt="icon for facebook" /></a></li>
-                  <li><a href="http://www.youtube.com"><img className="icon" src="https://landonhotel.com/images/socialmedia/youtube.png" alt="icon for youtube" /></a></li>
-                </ul>
-              </div>
-            </article>
-          </footer>
         </main>
+        <footer className="scene">
+          <article className="content">
+            <div id="socialmedia">
+              <ul className="group">
+                <li><a href="https://twitter.com"><img className="icon" src="https://landonhotel.com/images/socialmedia/twitter.png" alt="icon for twitter" /></a></li>
+                <li><a href="http://www.facebook.com"><img className="icon" src="https://landonhotel.com/images/socialmedia/facebook.png" alt="icon for facebook" /></a></li>
+                <li><a href="http://www.youtube.com"><img className="icon" src="https://landonhotel.com/images/socialmedia/youtube.png" alt="icon for youtube" /></a></li>
+              </ul>
+            </div>
+          </article>
+        </footer>
       </div>
     )
   }
